@@ -1,6 +1,7 @@
 {
   "name": "bfhl-api",
   "version": "1.0.0",
+  "description": "BFHL qualifier API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,6 +10,7 @@
     "node": "18.x"
   },
   "dependencies": {
+    "axios": "^1.13.5",
     "express": "^4.19.2"
   }
 }
